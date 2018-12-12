@@ -4,11 +4,11 @@ require_relative 'pages/login_page'
 class BbcSite
 
   def home_page_bbc_site
-    NavigateToSigninPage.new
+    Homepage.new
   end
 
   def login_page_bbc_site
-    Registration.new
+    Loginpage.new
   end
 
 end

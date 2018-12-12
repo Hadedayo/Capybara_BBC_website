@@ -1,6 +1,6 @@
 require 'capybara/dsl'
 
-class NavigateToSigninPage
+class Homepage
   include Capybara::DSL
   #Constants
   #PageObjects
