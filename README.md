@@ -8,7 +8,7 @@ Capybara is available on RubyGems
     gem install capybara
 
 ### Capybara_BBC_website
-Built a POM(Page Object Model) for the BBC Website and the Registration page to test valid and invalid inputs for the email and password field.
+Built a POM(Page Object Model) for the BBC Website and the Registration page to test valid and invalid inputs for the email and password field. All of the elements on the website are located using id name
 
 
 ### Installing the Repository
