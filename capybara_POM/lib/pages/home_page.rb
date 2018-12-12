@@ -1,19 +1,22 @@
 require 'capybara/dsl'
 
-class Registration
+class NavigateToSigninPage
   include Capybara::DSL
   #Constants
   #PageObjects
   HOME_PAGE_URL = 'https://www.bbc.co.uk/'
-  SIGN_IN_FIELD = 'idcta-link'
+  SIGN_IN_FIELD = '#idcta-username'
 
   def visit_home_page
     visit(HOME_PAGE_URL)
   end
 
-  def go_to_sign_in_page
-
+  def current_url
+    page.current_url
   end
 
+  def sign_in
+    find(SIGN_IN_FIELD).click
+  end
 
 end
